@@ -1,0 +1,34 @@
+{
+    "version" : "0.0.1",
+    "auth" : "github:tbrowder",
+    "author" : "github:tbrowder",
+    "authors" : [
+        "Tom Browder <tom.browder@gmail.com>"
+    ],
+    "build-depends" : [ ],
+    "depends" : [
+        "File::Copy"
+    ],
+    "description" : "Provides tools for module authors to use in the Build stage of installation.",
+    "license" : "Artistic-2.0",
+    "name" : "Build::Tools",
+    "perl" : "6.*",
+    "provides" : {
+        "Build::Tools" : "lib/Build/Tools.pm6"
+    },
+    "resources" : [ ],
+    "source-type" : "git",
+    "source-url" : "git://github.com/tbrowder/Build-Tools.git",
+    "support" : {
+        "bugtracker" : "https://github.com/tbrowder/Build-Tools/issues"
+    },
+    "tags" : [
+        "build",
+        "tools",
+        "resources",
+        "copy"
+    ],
+    "test-depends" : [
+        "Test::META"
+    ]
+}
